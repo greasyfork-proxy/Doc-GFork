@@ -1,47 +1,60 @@
 ---
-sidebar_position: 1
+
+**標題：GreasyFork中國加速鏡像站：極速下載油猴腳本嘅好幫手**  
+
+**引言**  
+如果你成日上網搵工具提升瀏覽體驗，咁「油猴」（Tampermonkey）腳本一定唔會陌生。不過，全球最大嘅用戶腳本平台GreasyFork（greasyfork.org）喺大陸訪問成日好慢，好影響體驗。好彩，而家有個**中國加速鏡像站 [https://greasyfork.org.cn/zh-hans](https://greasyfork.org.cn/zh-hans)**，完美解決咗呢個問題！本文會詳細介紹呢個鏡像站嘅功能、優勢同使用技巧，等你可以暢快咁用油猴腳本。  
+
 ---
 
-# Tutorial Intro
+### **一、GreasyFork鏡像站係咩？**  
+GreasyFork鏡像站係原站（greasyfork.org）嘅中國優化版，專門為咗解決大陸用戶訪問慢、下載腳本卡頓等問題而設。佢嘅功能同原站完全一樣，提供海量用戶腳本，包括廣告屏蔽、網盤加速、頁面優化等實用工具。  
 
-Let's discover **Docusaurus in less than 5 minutes**.
+**主要優勢**：  
+1. **訪問速度更快**：伺服器喺中國內地，無需經國際網絡，下載同加載腳本都更順暢。  
+2. **全中文介面**：語言更貼近本地用戶，搜索、分類同安裝指引都係中文顯示。  
+3. **腳本同步更新**：同原站保持內容一致，熱門腳本如「百度網盤直鏈下載助手」「Bilibili增強」等都可以直接下載。  
 
-## Getting Started
+---
 
-Get started by **creating a new site**.
+### **二、點解要用油猴腳本？**  
+油猴腳本可以自訂網頁行為，大幅提升瀏覽體驗，以下係幾個常見用途：  
+1. **解除限速**：例如用腳本獲取百度網盤直鏈，配合IDM等工具實現全速下載。  
+2. **屏蔽廣告**：例如「AC-百度」腳本可以過濾搜索引擎嘅廣告，令頁面更乾淨。  
+3. **功能增強**：B站用戶可以用「Bilibili-Evolved」實現視頻下載、封面提取等高級功能。  
+4. **效率工具**：「東方永頁機」自動翻頁、「計時器掌控者」視頻倍速播放等，都係學習同工作嘅好幫手。  
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+---
 
-### What you'll need
+### **三、鏡像站使用指南**  
+#### **1. 安裝油猴插件**  
+- **瀏覽器擴展**：Chrome、Edge等推薦安裝Tampermonkey；Firefox可以用Greasemonkey。  
+- **手機端**：Android用戶可以透過「油猴腳本greasyfork官網版」管理腳本（需要支援擴展嘅瀏覽器，例如Kiwi）。  
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+#### **2. 腳本安裝步驟**  
+- 訪問鏡像站 [https://greasyfork.org.cn/zh-hans](https://greasyfork.org.cn/zh-hans)，搜索你需要嘅腳本（例如「百度網盤簡易下載助手」）。  
+- 點擊「安裝此腳本」，油猴插件會自動彈出安裝界面，確認後即可啟用。  
 
-## Generate a new site
+#### **3. 腳本管理與更新**  
+- 喺油猴插件面板度，可以隨時啟用/停用腳本，或者透過鏡像站檢查更新。  
 
-Generate a new Docusaurus site using the **classic template**.
+---
 
-The classic template will automatically be added to your project after you run the command:
+### **四、熱門腳本推薦**  
+鏡像站收錄咗GreasyFork嘅全部腳本，以下係大陸用戶常用嘅幾個：  
+1. **百度網盤直鏈下載助手**：繞過限速，直接生成下載鏈接。  
+2. **CSDN去廣告**：清除技術博客頁面嘅廣告，專注閱讀。  
+3. **豆瓣資源下載大師**：整合影視、圖書資源下載渠道。  
+4. **GPT公益鏡像腳本**：免翻牆使用OpenAI模型。  
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+---
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+### **五、注意事項**  
+1. **腳本安全性**：優先選擇高評分、高下載量嘅腳本，避免安裝來源不明嘅代碼。  
+2. **兼容性問題**：部分腳本可能因為網站改版失效，需要留意更新日誌或者向開發者反饋。  
+3. **法律風險**：唔好用於破解付費內容等非法用途。  
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+---
 
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+### **結語**  
+GreasyFork中國鏡像站嘅推出，令油猴腳本嘅使用門檻大大降低。無論係提升工作效率，定係優化娛樂體驗，佢都可以幫到你。如果你之前因為原站訪問太慢而放棄，不妨試下呢個鏡像站，解鎖瀏覽器嘅無限可能！  
