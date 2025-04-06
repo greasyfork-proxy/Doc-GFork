@@ -19,8 +19,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            to="/docs/intro">瞭解詳情
           </Link>
         </div>
       </div>
@@ -33,7 +32,7 @@ export default function Home() {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="GreasyFork-Mirror">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

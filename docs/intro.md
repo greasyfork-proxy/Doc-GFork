@@ -1,4 +1,8 @@
-**標題：GreasyFork中國加速鏡像站：極速下載油猴腳本嘅好幫手**  
+---
+sidebar_position: 1
+---
+
+# GreasyFork中國加速鏡像站：極速下載油猴腳本嘅好幫手
 
 **引言**  
 如果你成日上網搵工具提升瀏覽體驗，咁「油猴」（Tampermonkey）腳本一定唔會陌生。不過，全球最大嘅用戶腳本平台GreasyFork（greasyfork.org）喺大陸訪問成日好慢，好影響體驗。好彩，而家有個**中國加速鏡像站 [https://greasyfork.org.cn/zh-hans](https://greasyfork.org.cn/zh-hans)**，完美解決咗呢個問題！本文會詳細介紹呢個鏡像站嘅功能、優勢同使用技巧，等你可以暢快咁用油猴腳本。  
