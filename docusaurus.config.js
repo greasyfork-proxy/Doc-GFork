@@ -63,10 +63,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Greasy Fork CN Proxy',
+        title: 'Greasy Fork Proxy',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/docusaurus.png',
         },
         items: [
           {
@@ -126,7 +126,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Dahi, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} GFork, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
