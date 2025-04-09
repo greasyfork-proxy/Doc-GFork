@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Doc for Greasy Fork CN Proxy',
-  tagline: 'Dinosaurs are cool',
+  title: 'Doc for Greasy Fork Proxy',
+  tagline: 'Speed Up',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here

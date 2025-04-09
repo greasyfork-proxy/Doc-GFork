@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Greasy Fork 鏡像站下載連結詳解
+# Greasy Fork 鏡像站API連結詳解
 
 ## 鏡像站與主站的區別
 
@@ -26,7 +26,7 @@ Greasy Fork 鏡像站 (`greasyfork.org.cn`) 與主站 (`greasyfork.org`) 的主�
 
 ### 通用
 ```
-https://api..greasyfork.org.cn/{內容}.json
+https://api.greasyfork.org.cn/{內容}.json
 ```
 
 ## 鏡像站專用特性
