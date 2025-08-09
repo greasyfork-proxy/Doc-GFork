@@ -126,7 +126,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} GFork, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} GFork, Inc. Built with Docusaurus.<a herf="https://www.netlify.com/">This site is powered by Netlify</a>`,
       },
       prism: {
         theme: prismThemes.github,
