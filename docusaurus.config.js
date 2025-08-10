@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Doc for Greasy Fork Proxy',
-  tagline: 'Speed Up',
+  title: 'Document for Greasy Fork Proxy',
+  tagline: 'Speedup for service',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -126,7 +126,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} GFork, Inc. Built with Docusaurus.<a herf="https://www.netlify.com/">This site is powered by Netlify</a>`,
+        copyright: `Copyright © ${new Date().getFullYear()} GFork. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
