@@ -1,4 +1,4 @@
-# **Code of Conduct**  
+# Code of Conduct
 
 ## **1. Purpose**  
 This Code of Conduct outlines our expectations for behavior within our community, organization, or event. We are committed to fostering an inclusive, respectful, and harassment-free environment for everyone, regardless of background or identity.  
