@@ -116,17 +116,21 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
+                label: 'GFork Blog',
                 to: '/blog',
               },
+{
+                label: 'Code of Conduct',
+                to: 'docs/Code-of-Conduct',
+              },
               {
-                label: 'GitHub',
+                label: 'GitHub Account',
                 href: 'https://github.com/greasyfork-proxy',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} GFork. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} GFork. Built with Docusaurus and Deployed by Netlify.<a herf="https://www.netlify.com">This site is powered by Netlify</a>`,
       },
       prism: {
         theme: prismThemes.github,
