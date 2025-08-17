@@ -75,10 +75,10 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/greasyfork-proxy',
-            label: 'GitHub',
+          {to: '/blog', label: 'GFork Blog', position: 'left'},
+{to: '/docs/Code-of-Conduct', label: 'Code of Conduct', position: 'left'},
+          {href: 'https://github.com/greasyfork-proxy',
+            label: 'GitHub Account',
             position: 'right',
           },
         ],
@@ -99,17 +99,9 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
+                label: 'GitHub Issues',
+                href: 'https://github.com/greasyfork-proxy/GreasyFork-Mirror/issues',
+              }
             ],
           },
           {
@@ -130,7 +122,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} GFork. Built with Docusaurus and Deployed by Netlify.<a herf="https://www.netlify.com">This site is powered by Netlify</a>`,
+        copyright: `© ${new Date().getFullYear()} GFork. Built with Docusaurus and Deployed by Netlify. <a herf="https://www.netlify.com">This site is powered by Netlify!</a>`,
       },
       prism: {
         theme: prismThemes.github,
