@@ -31,6 +31,29 @@ const config = {
     locales: ['zh-Hant'],
   },
 
+  // ===== 在这里添加 AdSense =====
+  headTags: [
+    {
+      tagName: 'script',
+      attributes: {
+        async: true,
+        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3758644447684310',
+        crossorigin: 'anonymous'
+      }
+    },
+    // 可选的 AdSense 配置脚本
+    {
+      tagName: 'script',
+      innerHTML: `
+        (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-3758644447684310",
+          enable_page_level_ads: true
+        });
+      `
+    }
+  ],
+  // ==============================
+
   presets: [
     [
       'classic',
