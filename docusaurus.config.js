@@ -31,7 +31,7 @@ const config = {
     locales: ['zh-Hant'],
   },
 
-  // ===== 在这里添加 AdSense =====
+  // ===== 修复后的 AdSense 配置 =====
   headTags: [
     {
       tagName: 'script',
@@ -40,19 +40,17 @@ const config = {
         src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3758644447684310',
         crossorigin: 'anonymous'
       }
-    },
-    // 可选的 AdSense 配置脚本
-    {
-      tagName: 'script',
-      innerHTML: `
-        (adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: "ca-pub-3758644447684310",
-          enable_page_level_ads: true
-        });
-      `
     }
   ],
-  // ==============================
+  
+  scripts: [
+    {
+      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3758644447684310',
+      async: true,
+      crossorigin: 'anonymous'
+    }
+  ],
+  // ===================================
 
   presets: [
     [
@@ -99,8 +97,9 @@ const config = {
             label: 'Tutorial',
           },
           {to: '/blog', label: 'GFork Blog', position: 'left'},
-{to: '/docs/Code-of-Conduct', label: 'Code of Conduct', position: 'left'},
-          {href: 'https://github.com/greasyfork-proxy',
+          {to: '/docs/Code-of-Conduct', label: 'Code of Conduct', position: 'left'},
+          {
+            href: 'https://github.com/greasyfork-proxy',
             label: 'GitHub Account',
             position: 'right',
           },
@@ -134,7 +133,7 @@ const config = {
                 label: 'GFork Blog',
                 to: '/blog',
               },
-{
+              {
                 label: 'Code of Conduct',
                 to: 'docs/Code-of-Conduct',
               },
@@ -145,7 +144,7 @@ const config = {
             ],
           },
         ],
-        copyright: `© ${new Date().getFullYear()} GFork. Built with Docusaurus and Deployed by Netlify. <a herf="https://www.netlify.com">This site is powered by Netlify!</a>`,
+        copyright: `© ${new Date().getFullYear()} GFork. Built with Docusaurus and Deployed by Netlify. <a href="https://www.netlify.com">This site is powered by Netlify!</a>`,
       },
       prism: {
         theme: prismThemes.github,
