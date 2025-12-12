@@ -31,27 +31,6 @@ const config = {
     locales: ['zh-Hant'],
   },
 
-  // ===== 修复后的 AdSense 配置 =====
-  headTags: [
-    {
-      tagName: 'script',
-      attributes: {
-        async: true,
-        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3758644447684310',
-        crossorigin: 'anonymous'
-      }
-    }
-  ],
-  
-  scripts: [
-    {
-      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3758644447684310',
-      async: true,
-      crossorigin: 'anonymous'
-    }
-  ],
-  // ===================================
-
   presets: [
     [
       'classic',
@@ -77,6 +56,17 @@ const config = {
       }),
     ],
   ],
+
+  // ===== AdSense 配置 (仅保留一个位置) =====
+  scripts: [
+    {
+      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3758644447684310',
+      async: true,
+      crossorigin: 'anonymous'
+    }
+    // 在这里可以添加其他全局脚本
+  ],
+  // =========================================
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
