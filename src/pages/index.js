@@ -31,7 +31,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Greasy Fork Proxy 镜像站 脚本下载，这是 ${siteConfig.title}`}
+      title={`GreasyFork镜像站 - 用户脚本加速下载，这是 ${siteConfig.title}`}
       description="GreasyFork-Mirror">
       <HomepageHeader />
       <main>
