@@ -134,8 +134,7 @@ const config = {
             ],
           },
         ],
-        copyright: `© ${new Date().getFullYear()} GFork. Built with Docusaurus and Deployed by Netlify. <a href="https://www.netlify.com">This site is powered by Netlify!</a>
-        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3758644447684310" data-ad-slot="4095096984" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script><br><ins class="adsbygoogle" style="display:block" data-ad-format="autorelaxed" data-ad-client="ca-pub-3758644447684310" data-ad-slot="3934604756"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>`,
+        copyright: `© ${new Date().getFullYear()} GFork. Built with Docusaurus and Deployed by Netlify. <a href="https://www.netlify.com">This site is powered by Netlify!</a>`,
       },
       prism: {
         theme: prismThemes.github,
