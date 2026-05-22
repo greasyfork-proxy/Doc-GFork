@@ -57,14 +57,27 @@ const config = {
     ],
   ],
 
-  // ===== AdSense 配置 (仅保留一个位置) =====
+  // ===== AdSense 速度优化 (DNS预解析 + 延迟加载) =====
+  headTags: [
+    {
+      tagName: 'link',
+      attributes: { rel: 'preconnect', href: 'https://pagead2.googlesyndication.com', crossOrigin: 'anonymous' },
+    },
+    {
+      tagName: 'link',
+      attributes: { rel: 'dns-prefetch', href: 'https://googleads.g.doubleclick.net' },
+    },
+    {
+      tagName: 'link',
+      attributes: { rel: 'dns-prefetch', href: 'https://tpc.googlesyndication.com' },
+    },
+  ],
   scripts: [
     {
       src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3758644447684310',
       async: true,
-      crossorigin: 'anonymous'
-    }
-    // 在这里可以添加其他全局脚本
+      crossorigin: 'anonymous',
+    },
   ],
   // =========================================
 

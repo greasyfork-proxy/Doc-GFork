@@ -28,3 +28,27 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* ===== AdSense 广告全局样式 ===== */
+/* 防CLS：AD未加载时占位，避免页面跳动 */
+ins.adsbygoogle[data-ad-format="auto"] { min-height: 90px; }
+ins.adsbygoogle[data-ad-format="autorelaxed"] { min-height: 200px; }
+ins.adsbygoogle[data-ad-format="fluid"] { min-height: 120px; }
+
+/* 未填充广告隐藏占位 */
+ins.adsbygoogle[data-ad-status="unfilled"] {
+  min-height: 0 !important;
+  display: none !important;
+}
+
+/* 暗色模式广告容器适配 */
+[data-theme='dark'] ins.adsbygoogle[data-ad-format="autorelaxed"] {
+  background: transparent;
+}
+
+/* 移动端广告容器缩小占位 */
+@media (max-width: 768px) {
+  ins.adsbygoogle[data-ad-format="auto"] { min-height: 50px; }
+  ins.adsbygoogle[data-ad-format="autorelaxed"] { min-height: 180px; }
+  ins.adsbygoogle[data-ad-format="fluid"] { min-height: 80px; }
+}

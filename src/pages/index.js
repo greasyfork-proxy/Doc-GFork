@@ -3,6 +3,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import AdSlot from '@site/src/components/AdSlot';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
@@ -35,7 +36,9 @@ export default function Home() {
       description="GreasyFork-Mirror">
       <HomepageHeader />
       <main>
+        <AdSlot slot="4095096984" format="auto" />
         <HomepageFeatures />
+        <AdSlot slot="3934604756" format="autorelaxed" style={{ minHeight: 200, maxWidth: 750 }} />
       </main>
     </Layout>
   );
